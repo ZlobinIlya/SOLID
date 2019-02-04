@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afe1a562-e5d0-43d9-9a48-05e4f9be5adb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Patterns/All_patterns/.idea/All_patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patterns/All_patterns/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patterns/All_patterns/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patterns/All_patterns/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patterns/All_patterns/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patterns/All_patterns/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/epam/liskovPR/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/epam/liskovPR/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/epam/liskovPR/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/epam/liskovPR/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/epam/lohc/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/epam/ocprinciple/Celeca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/epam/ocprinciple/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/epam/ocprinciple/Toyota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Git/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/_classpath(1).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/_classpath.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/_gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/_project(1).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/_project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Git/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/AbstractCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Mastercard/Maestro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Mastercard/MasterCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Mastercard/MasterCardElectronic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Mastercard/MastercardParent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Mir/MirCardParent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Mir/MirClassical.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Mir/MirDebit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Mir/MirPremium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Visa/VisaCardParent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Visa/VisaClassic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Visa/VisaElectron.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/Visa/VisaGold.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/interfaces/CheckAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/interfaces/GetType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Card/interfaces/InterfaceBankingCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Generator/GenerateCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Generator/InterfacaOfEnamCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Generator/TypeCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Input/InputMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Input/InterfaceImputMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Input/InterfaceInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Input/Realization/ParserOfInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Input/Realization/ReaderForArgs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Output/InterfaceFactoryOfReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Output/InterfaceReportMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Output/OutputSystemString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/src/main/java/App/Output/SysoutReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/AbstractCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Mastercard/Maestro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Mastercard/MasterCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Mastercard/MasterCardElectronic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Mastercard/MastercardParent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Mir/MirCardParent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Mir/MirClassical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Mir/MirDebit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Mir/MirPremium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Visa/VisaCardParent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Visa/VisaClassic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Visa/VisaElectron.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/Visa/VisaGold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/interfaces/CheckAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/interfaces/GetType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Card/interfaces/InterfaceBankingCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/GenerateCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/InterfacaOfEnamCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/TypeCard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/TypeCard$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/TypeCard$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/TypeCard$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/TypeCard$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/TypeCard$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/TypeCard$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/TypeCard$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/TypeCard$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Generator/TypeCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Input/InputMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Input/InterfaceImputMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Input/InterfaceInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Input/Realization/ParserOfInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Input/Realization/ReaderForArgs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Output/InterfaceFactoryOfReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Output/InterfaceReportMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Output/OutputSystemString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/App/Output/SysoutReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../Git/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/META-INF/maven/com.epam.jtc/Git/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Git/target/classes/META-INF/maven/com.epam.jtc/Git/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/bin/robot/TypeRobot$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/bin/robot/TypeRobot$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/bin/robot/TypeRobot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/bin/robots/copy/Robot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/bin/robots/copy/T1000.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/bin/robots/copy/T900.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/src/robot/TypeRobot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/src/robots/copy/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/src/robots/copy/T1000.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gsdfsdf/src/robots/copy/T900.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/zlobin/OpenClose/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/lohc/A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/ocprinciple/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/ocprinciple/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/liskovPR/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/liskovPR/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/liskovPR/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+              <folding>
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/ocprinciple/Toyota.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="46" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/ocprinciple/Celeca.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/epam/zlobin/OpenClose/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/zlobin/OpenClose/DatabaseLogger.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/zlobin/OpenClose/Logger.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/lohc/A.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/ocprinciple/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/ocprinciple/Toyota.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/ocprinciple/Celeca.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/ocprinciple/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/liskovPR/Shpae.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/liskovPR/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/liskovPR/Square.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/liskovPR/Shape.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/liskovPR/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="81" />
+    <option name="y" value="1" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenClose" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549291769051" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Patterns/All_patterns/master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.liskovPR.Main" />
+      <module name="SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.liskovPR.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afe1a562-e5d0-43d9-9a48-05e4f9be5adb" name="Default Changelist" comment="" />
+      <created>1548940492483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548940492483</updated>
+      <workItem from="1548940497706" duration="2963000" />
+      <workItem from="1549276404526" duration="6699000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9662000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1125" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/zlobin/OpenClose/SmtpMailer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/zlobin/OpenClose/ILogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/zlobin/OpenClose/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RoleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AccountEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/lohc/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/ocprinciple/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/ocprinciple/Toyota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/ocprinciple/Celeca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/ocprinciple/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/liskovPR/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/liskovPR/Shpae.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/liskovPR/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/liskovPR/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/liskovPR/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/zlobin/OpenClose/DatabaseLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/zlobin/OpenClose/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
