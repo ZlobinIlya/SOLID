@@ -3,16 +3,19 @@ package com.epam.liskovPR;
 public class Square implements Shape {
     int widh;
 
-    public int getWidh() {
-        return widh;
-    }
-
-    public void setWidh(int widh) {
-        this.widh = widh;
-    }
 
     @Override
     public int getSquere() {
-        return widh^2;
+        return widh*widh;
+    }
+
+    @Override
+    public void setHeight(int ed) {
+
+    }
+
+    @Override
+    public void setWith(int widh) {
+        this.widh = widh;
     }
 }
