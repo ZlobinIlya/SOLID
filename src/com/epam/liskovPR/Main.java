@@ -9,6 +9,6 @@ public class Main {
     }
 
     private static Shape getRectangle() {
-        return new Rectangle();
+        return new Square();
     }
 }
